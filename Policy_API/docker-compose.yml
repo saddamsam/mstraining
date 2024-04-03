@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  policy_api:
+    image: ${DOCKER_REGISTRY-}policyapi
+    build:
+      context: .
+      dockerfile: Policy_API/Dockerfile
+    depends_on:
+      - sqlserverinstance
+  sqlserverinstance:
+    image: mcr.microsoft.com/mssql/server
+    hostname: 'sqlserverinstance'
+    environment:
+        ACCEPT_EULA: 'Y'
+        SA_PASSWORD: "Saddam@123"
+    volumes:
+      - ./policyapi:/var/opt/mssql/data
+    ports:
+      - '1403:1433'
+    expose:
+      - 1433 
+  

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Policy_API.props" />
+</Project>

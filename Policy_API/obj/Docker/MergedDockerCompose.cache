@@ -1,0 +1,37 @@
+name: dockercompose17983540833575647229
+services:
+  policy_api:
+    build:
+      context: E:\Projects\Training\API\Policy_API
+      dockerfile: Policy_API/Dockerfile
+    depends_on:
+      sqlserverinstance:
+        condition: service_started
+        required: true
+    image: policyapi
+    networks:
+      default: null
+  sqlserverinstance:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Saddam@123
+    expose:
+      - "1433"
+    hostname: sqlserverinstance
+    image: mcr.microsoft.com/mssql/server
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1403"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: E:\Projects\Training\API\Policy_API\policyapi
+        target: /var/opt/mssql/data
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose17983540833575647229_default
