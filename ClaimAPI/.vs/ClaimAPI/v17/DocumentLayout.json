@@ -1,12 +1,104 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Projects\\Training\\API\\ClaimAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|e:\\projects\\training\\api\\claimapi\\claimapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|solutionrelative:claimapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|e:\\projects\\training\\api\\claimapi\\claimapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|solutionrelative:claimapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|e:\\projects\\training\\api\\claimapi\\claimapi\\claimapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|solutionrelative:claimapi\\claimapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|e:\\projects\\training\\api\\claimapi\\claimapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|solutionrelative:claimapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|e:\\projects\\training\\api\\claimapi\\claimapi\\claimapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{625E5FA1-0DD7-4E66-A512-F0A9C9C85D6E}|ClaimAPI\\ClaimAPI.csproj|solutionrelative:claimapi\\claimapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "ClaimAPI\\Dockerfile",
+              "ToolTip": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\Dockerfile",
+              "RelativeToolTip": "ClaimAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-03T17:16:26.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ClaimAPI\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ClaimAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwDMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T17:15:27.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaimAPI",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\ClaimAPI.csproj",
+              "RelativeDocumentMoniker": "ClaimAPI\\ClaimAPI.csproj",
+              "ToolTip": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\ClaimAPI.csproj",
+              "RelativeToolTip": "ClaimAPI\\ClaimAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-03T17:15:24.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ClaimAPI\\appsettings.json",
+              "ToolTip": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\appsettings.json",
+              "RelativeToolTip": "ClaimAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T17:15:20.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClaimAPI.http",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\ClaimAPI.http",
+              "RelativeDocumentMoniker": "ClaimAPI\\ClaimAPI.http",
+              "ToolTip": "E:\\Projects\\Training\\API\\ClaimAPI\\ClaimAPI\\ClaimAPI.http",
+              "RelativeToolTip": "ClaimAPI\\ClaimAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-03T17:15:12.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
