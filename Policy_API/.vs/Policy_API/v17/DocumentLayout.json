@@ -3,16 +3,115 @@
   "WorkspaceRootPath": "E:\\Projects\\Training\\API\\Policy_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2BE4379-2718-43BA-ADFC-FEA1D5088361}|docker-compose.dcproj|e:\\projects\\training\\api\\policy_api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B2BE4379-2718-43BA-ADFC-FEA1D5088361}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\controllers\\policypublishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\controllers\\policypublishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\repository\\policyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\repository\\policyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\repository\\ipolicypublishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\repository\\ipolicypublishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\controllers\\policyholderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\controllers\\policyholderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\controllers\\addressescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\repository\\policypublishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\repository\\policypublishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\policy_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\policy_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\auth\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\auth\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\configurations\\vaultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\configurations\\vaultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\repository\\addressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\repository\\addressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\models\\policyholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\models\\policyholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\repository\\iaddressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\repository\\iaddressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\context\\policycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\context\\policycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\context\\policyidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\context\\policyidentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\auth\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\auth\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\auth\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\auth\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\auth\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\auth\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saddam\\AppData\\Local\\SourceServer\\a23a9e14f4e3630f75d3a75b82a69bd1c863fa20b154b73319758e0227e1e615\\src\\GraphQL\\Utilities\\NameValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BE4379-2718-43BA-ADFC-FEA1D5088361}|docker-compose.dcproj|e:\\projects\\training\\api\\policy_api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B2BE4379-2718-43BA-ADFC-FEA1D5088361}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -23,10 +122,6 @@
       "RelativeMoniker": "D:0:0:{B2BE4379-2718-43BA-ADFC-FEA1D5088361}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\policy_api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\policy_api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -35,15 +130,8 @@
       "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\queries\\policygqltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saddam\\AppData\\Local\\SourceServer\\a23a9e14f4e3630f75d3a75b82a69bd1c863fa20b154b73319758e0227e1e615\\src\\GraphQL\\Utilities\\NameValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\mutations\\rootmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\mutations\\rootmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|e:\\projects\\training\\api\\policy_api\\policy_api\\repository\\policyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0B7D46E-83F2-4AD6-A966-A64241EE9187}|Policy_API\\Policy_API.csproj|solutionrelative:policy_api\\repository\\policyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,93 +141,399 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-04-03T17:37:32.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Dockerfile",
-              "RelativeDocumentMoniker": "Policy_API\\Dockerfile",
-              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Dockerfile",
-              "RelativeToolTip": "Policy_API\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-03T17:36:53.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Program.cs",
               "RelativeDocumentMoniker": "Policy_API\\Program.cs",
               "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Program.cs",
               "RelativeToolTip": "Policy_API\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADkAAAAaAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAmwEwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T17:22:29.536Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PolicyPublishController.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\PolicyPublishController.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Controllers\\PolicyPublishController.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\PolicyPublishController.cs",
+              "RelativeToolTip": "Policy_API\\Controllers\\PolicyPublishController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:12:48.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Controllers\\VehiclesController.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "Policy_API\\Controllers\\VehiclesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:12:11.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PoliciesController.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\PoliciesController.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Controllers\\PoliciesController.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\PoliciesController.cs",
+              "RelativeToolTip": "Policy_API\\Controllers\\PoliciesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:12:02.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PolicyPublishRepo.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\PolicyPublishRepo.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Repository\\PolicyPublishRepo.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\PolicyPublishRepo.cs",
+              "RelativeToolTip": "Policy_API\\Repository\\PolicyPublishRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:58:32.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPolicyPublishRepo.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\IPolicyPublishRepo.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Repository\\IPolicyPublishRepo.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\IPolicyPublishRepo.cs",
+              "RelativeToolTip": "Policy_API\\Repository\\IPolicyPublishRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:56:31.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Policy_API",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Policy_API.csproj",
+              "RelativeDocumentMoniker": "Policy_API\\Policy_API.csproj",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Policy_API.csproj",
+              "RelativeToolTip": "Policy_API\\Policy_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-08T10:53:19.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Policy_API\\appsettings.json",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\appsettings.json",
+              "RelativeToolTip": "Policy_API\\appsettings.json",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T09:33:48.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VaultConfiguration.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Configurations\\VaultConfiguration.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Configurations\\VaultConfiguration.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Configurations\\VaultConfiguration.cs",
+              "RelativeToolTip": "Policy_API\\Configurations\\VaultConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:27:32.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddressRepo.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\AddressRepo.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Repository\\AddressRepo.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\AddressRepo.cs",
+              "RelativeToolTip": "Policy_API\\Repository\\AddressRepo.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T11:55:51.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAddressRepo.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\IAddressRepo.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Repository\\IAddressRepo.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\IAddressRepo.cs",
+              "RelativeToolTip": "Policy_API\\Repository\\IAddressRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T11:52:38.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Address.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Models\\Address.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Models\\Address.cs",
+              "RelativeToolTip": "Policy_API\\Models\\Address.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T09:32:10.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Models\\Policy.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Models\\Policy.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Models\\Policy.cs",
+              "RelativeToolTip": "Policy_API\\Models\\Policy.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:42:04.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PolicyHolder.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Models\\PolicyHolder.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Models\\PolicyHolder.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Models\\PolicyHolder.cs",
+              "RelativeToolTip": "Policy_API\\Models\\PolicyHolder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T09:55:15.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PolicyHoldersController.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\PolicyHoldersController.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Controllers\\PolicyHoldersController.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\PolicyHoldersController.cs",
+              "RelativeToolTip": "Policy_API\\Controllers\\PolicyHoldersController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:58:42.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddressesController.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\AddressesController.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Controllers\\AddressesController.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\AddressesController.cs",
+              "RelativeToolTip": "Policy_API\\Controllers\\AddressesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:58:35.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Policy_API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAIAwwJYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:58:30.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Policy_API\\WeatherForecast.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\WeatherForecast.cs",
+              "RelativeToolTip": "Policy_API\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:02:16.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PolicyIdentityContext.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Context\\PolicyIdentityContext.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Context\\PolicyIdentityContext.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Context\\PolicyIdentityContext.cs",
+              "RelativeToolTip": "Policy_API\\Context\\PolicyIdentityContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:51:03.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PolicyContext.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Context\\PolicyContext.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Context\\PolicyContext.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Context\\PolicyContext.cs",
+              "RelativeToolTip": "Policy_API\\Context\\PolicyContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:50:45.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Auth\\Roles.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Auth\\Roles.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Auth\\Roles.cs",
+              "RelativeToolTip": "Policy_API\\Auth\\Roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:43:59.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Response.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Auth\\Response.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Auth\\Response.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Auth\\Response.cs",
+              "RelativeToolTip": "Policy_API\\Auth\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:43:24.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Auth\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Auth\\LoginModel.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Auth\\LoginModel.cs",
+              "RelativeToolTip": "Policy_API\\Auth\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:43:12.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Auth\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Policy_API\\Auth\\RegisterModel.cs",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Auth\\RegisterModel.cs",
+              "RelativeToolTip": "Policy_API\\Auth\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T10:42:59.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-03T17:37:32.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Dockerfile",
+              "RelativeDocumentMoniker": "Policy_API\\Dockerfile",
+              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Dockerfile",
+              "RelativeToolTip": "Policy_API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-03T17:36:53.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-04-03T17:20:09.405Z"
+              "WhenOpened": "2024-04-03T17:20:09.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 25,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Policy_API\\Properties\\launchSettings.json",
               "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Properties\\launchSettings.json",
               "RelativeToolTip": "Policy_API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAABhwAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T12:26:21.914Z"
+              "WhenOpened": "2024-04-03T12:26:21.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 30,
               "Title": "Policy_API",
               "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Policy_API.csproj",
               "RelativeDocumentMoniker": "Policy_API\\Policy_API.csproj",
               "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Policy_API.csproj",
               "RelativeToolTip": "Policy_API\\Policy_API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-03T12:26:20.142Z"
+              "WhenOpened": "2024-04-03T12:26:20.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "NameValidator.cs",
               "DocumentMoniker": "C:\\Users\\saddam\\AppData\\Local\\SourceServer\\a23a9e14f4e3630f75d3a75b82a69bd1c863fa20b154b73319758e0227e1e615\\src\\GraphQL\\Utilities\\NameValidator.cs",
               "ToolTip": "C:\\Users\\saddam\\AppData\\Local\\SourceServer\\a23a9e14f4e3630f75d3a75b82a69bd1c863fa20b154b73319758e0227e1e615\\src\\GraphQL\\Utilities\\NameValidator.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAIAwwDMAAAAQAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAIAwwDwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T11:56:58.141Z"
+              "WhenOpened": "2024-04-03T11:56:58.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 31,
               "Title": "PolicyGQLType.cs",
               "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Queries\\PolicyGQLType.cs",
               "RelativeDocumentMoniker": "Policy_API\\Queries\\PolicyGQLType.cs",
@@ -147,11 +541,12 @@
               "RelativeToolTip": "Policy_API\\Queries\\PolicyGQLType.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAwwBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T09:17:57.503Z"
+              "WhenOpened": "2024-04-03T09:17:57.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "PolicyRepo.cs",
               "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Repository\\PolicyRepo.cs",
               "RelativeDocumentMoniker": "Policy_API\\Repository\\PolicyRepo.cs",
@@ -159,11 +554,12 @@
               "RelativeToolTip": "Policy_API\\Repository\\PolicyRepo.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAAmwEwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T09:15:36.92Z"
+              "WhenOpened": "2024-04-03T09:15:36.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 32,
               "Title": "RootMutation.cs",
               "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\Mutations\\RootMutation.cs",
               "RelativeDocumentMoniker": "Policy_API\\Mutations\\RootMutation.cs",
@@ -171,19 +567,8 @@
               "RelativeToolTip": "Policy_API\\Mutations\\RootMutation.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAgwDsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T09:13:05.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\appsettings.json",
-              "RelativeDocumentMoniker": "Policy_API\\appsettings.json",
-              "ToolTip": "E:\\Projects\\Training\\API\\Policy_API\\Policy_API\\appsettings.json",
-              "RelativeToolTip": "Policy_API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T09:09:59.072Z"
+              "WhenOpened": "2024-04-03T09:13:05.666Z",
+              "EditorCaption": ""
             }
           ]
         }

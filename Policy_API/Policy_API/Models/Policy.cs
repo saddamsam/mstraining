@@ -9,7 +9,6 @@ namespace Policy_API.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [JsonIgnore]
 
         [Column("Policy_No")]
         public long PolicyNo { get; set; }
@@ -28,7 +27,7 @@ namespace Policy_API.Models
 
         [ForeignKey("PolicyHolder")]
         [Column("AdharCard_No_FK")]
-        [JsonIgnore]
+
 
         public string AdharCardNo { get; set; }
         [JsonIgnore]
@@ -36,7 +35,7 @@ namespace Policy_API.Models
 
         [ForeignKey("Vehicle")]
         [Column("Registration_No_FK")]
-        [JsonIgnore]
+     
 
         public string RegistrationNo { get; set; }
         [JsonIgnore]

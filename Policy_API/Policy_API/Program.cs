@@ -13,6 +13,11 @@ using System.Text.Json;
 using Policy_API.Schemas;
 using GraphQL.Server;
 using GraphQL.Server.Ui.Playground;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using VaultSharp.V1.Commons;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -20,9 +25,14 @@ builder.Configuration.AddConfigServer();
 
 ConfigurationManager configuration = builder.Configuration;
 
-//string url = configuration["awsvaulturl"].ToString();
-//string rootKey = configuration["rootkey"].ToString();
+string url = configuration["awsvaulturl"].ToString();
+string rootKey = configuration["rootkey"].ToString();
 
+
+IDictionary<string, object> jwtresult = new VaultConfiguration(configuration).GetJWTSecrets(rootKey, url).Result;
+
+
+string jwtsecret = jwtresult["secret"].ToString();
 
 builder.Services.AddControllers();
 builder.Services.AddControllers()
@@ -35,18 +45,23 @@ builder.Services.AddControllers()
 
 
 
-
-//IDictionary<string,object> result = new VaultConfiguration(configuration).GetSecrets(rootKey,url).Result;
+//For Policy DB
+IDictionary<string, object> result = new VaultConfiguration(configuration).GetSecrets(rootKey, url).Result;
 SqlConnectionStringBuilder providerCs = new SqlConnectionStringBuilder();
-//providerCs.UserID = result["username"].ToString();
-//providerCs.Password = result["password"].ToString();
-providerCs.UserID = "sa";
-providerCs.Password = "Saddam@123";
-providerCs.DataSource= configuration["connn"];
-//providerCs.DataSource= configuration["trainerservername"];
-providerCs.InitialCatalog = "PolicyDB";//configuration["dbName"];
+providerCs.UserID = result["username"].ToString();
+providerCs.Password = result["password"].ToString();
+//providerCs.UserID = "sa";
+//providerCs.Password = "Saddam@123";
+//providerCs.Password = "123";
+providerCs.DataSource = configuration["connn"];
+//providerCs.DataSource = configuration["servername"];
+providerCs.InitialCatalog = "PolicyDB"; //configuration["policydbname"]; //PolicyDB
 providerCs.MultipleActiveResultSets = true;
 providerCs.TrustServerCertificate = true;
+
+//For Identity DB
+builder.Services.AddDbContext<PolicyIdentityContext>(o =>
+o.UseSqlServer(configuration.GetConnectionString("policyIdentityConn")));
 
 
 builder.Services.AddDbContext<PolicyContext>(o => o.UseSqlServer(providerCs.ToString()));
@@ -59,14 +74,46 @@ builder.Services.AddTransient<IPolicyRepo,PolicyRepo>();
 
 builder.Services.AddTransient<IVehicleRepo,VehicleRepo>();
 
+builder.Services.AddTransient<IPolicyPublishRepo,PolicyPublishRepo>();
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<PolicyIdentityContext>()
+    .AddDefaultTokenProviders();
+
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
+
 builder.Services.AddSwaggerGen(opt =>
 {
     opt.SwaggerDoc("v1", new OpenApiInfo { Title = "PolicyAPI", Version = "v1" });
+
+    opt.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter token",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        BearerFormat = "JWT",
+        Scheme = "bearer"
+    });
+
+    opt.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type=ReferenceType.SecurityScheme,
+                    Id="Bearer"
+                }
+            },
+            new string[]{}
+        }
+    });
 });
 builder.Services.AddApiVersioning(opt =>
 {
@@ -108,6 +155,28 @@ builder.Services.AddGraphQL()
                .AddGraphTypes(typeof(PolicySchema), ServiceLifetime.Scoped);
 
 
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+// Add services to the container.
+
+// Adding Jwt Bearer
+.AddJwtBearer(options =>
+{
+    options.SaveToken = true;
+    options.RequireHttpsMetadata = false;
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidAudience = configuration["JWT:ValidAudience"],
+        ValidIssuer = configuration["JWT:ValidIssuer"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtsecret))
+    };
+});
 
 var app = builder.Build();
 var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
@@ -132,6 +201,9 @@ app.UseGraphQLPlayground(options: new PlaygroundOptions());
 
 app.UseHttpsRedirection();
 
+
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

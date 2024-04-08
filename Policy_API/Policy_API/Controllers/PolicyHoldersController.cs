@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Cors;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Policy_API.Auth;
 using Policy_API.Models;
 using Policy_API.Repository;
+using VaultSharp.V1.SecretsEngines.Database;
 
 namespace Policy_API.Controllers
 {
@@ -24,6 +27,8 @@ namespace Policy_API.Controllers
 
 
         [HttpGet]
+        //[Authorize(Roles = Roles.Admin + "," + Roles.User)]
+        [Authorize(Roles = "Admin,User")]
         public async Task<IEnumerable<PolicyHolder>> Get()
         {
             return await this._policyHolderRepo.GetAllPolicyHolders();

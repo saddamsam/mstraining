@@ -2,24 +2,18 @@
   {
     "ContainingType": "Policy_API.Controllers.AddressesController",
     "Method": "GetAllAddresses",
-    "RelativePath": "api/Addresses",
+    "RelativePath": "api/v1.1/Addresses",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Address, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
-          "text/plain; x-api-version=1.0",
-          "application/json; x-api-version=1.0",
-          "text/json; x-api-version=1.0"
+          "text/plain; x-api-version=1.1",
+          "application/json; x-api-version=1.1",
+          "text/json; x-api-version=1.1"
         ],
         "StatusCode": 200
       }
@@ -28,7 +22,7 @@
   {
     "ContainingType": "Policy_API.Controllers.AddressesController",
     "Method": "GetAddress",
-    "RelativePath": "api/Addresses",
+    "RelativePath": "api/v1.1/Addresses",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -37,20 +31,15 @@
         "Name": "req",
         "Type": "Policy_API.DTO.AddressReq",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
         "Type": "Policy_API.Models.Address",
         "MediaTypes": [
-          "text/plain; x-api-version=1.0",
-          "application/json; x-api-version=1.0",
-          "text/json; x-api-version=1.0"
+          "text/plain; x-api-version=1.1",
+          "application/json; x-api-version=1.1",
+          "text/json; x-api-version=1.1"
         ],
         "StatusCode": 200
       }
@@ -59,7 +48,7 @@
   {
     "ContainingType": "Policy_API.Controllers.AddressesController",
     "Method": "Post",
-    "RelativePath": "api/Addresses/{aadharCardNo}",
+    "RelativePath": "api/v1.1/Addresses/{aadharCardNo}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -73,11 +62,6 @@
         "Name": "aadharCardNo",
         "Type": "System.String",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -85,7 +69,7 @@
   {
     "ContainingType": "Policy_API.Controllers.AddressesController",
     "Method": "Delete",
-    "RelativePath": "api/Addresses/{aadharCardNo}/{doorNo}/{streetNo}",
+    "RelativePath": "api/v1.1/Addresses/{aadharCardNo}/{doorNo}/{streetNo}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -104,11 +88,6 @@
         "Name": "streetNo",
         "Type": "System.String",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -116,7 +95,7 @@
   {
     "ContainingType": "Policy_API.Controllers.AddressesController",
     "Method": "Put",
-    "RelativePath": "api/Addresses/{aadharCardNo}/{oldDoorNo}/{oldStreetNo}",
+    "RelativePath": "api/v1.1/Addresses/{aadharCardNo}/{oldDoorNo}/{oldStreetNo}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -140,11 +119,54 @@
         "Name": "oldStreetNo",
         "Type": "System.String",
         "IsRequired": true
-      },
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/v1.1/Authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "model",
+        "Type": "Policy_API.Auth.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/v1.1/Authentication/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Policy_API.Auth.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/v1.1/Authentication/register-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Policy_API.Auth.RegisterModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -152,24 +174,18 @@
   {
     "ContainingType": "Policy_API.Controllers.PoliciesController",
     "Method": "GetAllPolicies",
-    "RelativePath": "api/Policies",
+    "RelativePath": "api/v1.1/Policies",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Policy, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
-          "text/plain; x-api-version=1.0",
-          "application/json; x-api-version=1.0",
-          "text/json; x-api-version=1.0"
+          "text/plain; x-api-version=1.1",
+          "application/json; x-api-version=1.1",
+          "text/json; x-api-version=1.1"
         ],
         "StatusCode": 200
       }
@@ -178,7 +194,7 @@
   {
     "ContainingType": "Policy_API.Controllers.PoliciesController",
     "Method": "Post",
-    "RelativePath": "api/Policies/{aadharCardNo}/{registrationNo}",
+    "RelativePath": "api/v1.1/Policies/{aadharCardNo}/{registrationNo}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -197,11 +213,6 @@
         "Name": "registrationNo",
         "Type": "System.String",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -209,7 +220,7 @@
   {
     "ContainingType": "Policy_API.Controllers.PoliciesController",
     "Method": "GetPolicy",
-    "RelativePath": "api/Policies/{adharCardNo}",
+    "RelativePath": "api/v1.1/Policies/{adharCardNo}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -223,20 +234,15 @@
         "Name": "adharCardNo",
         "Type": "",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
         "Type": "Policy_API.Models.Policy",
         "MediaTypes": [
-          "text/plain; x-api-version=1.0",
-          "application/json; x-api-version=1.0",
-          "text/json; x-api-version=1.0"
+          "text/plain; x-api-version=1.1",
+          "application/json; x-api-version=1.1",
+          "text/json; x-api-version=1.1"
         ],
         "StatusCode": 200
       }
@@ -245,7 +251,7 @@
   {
     "ContainingType": "Policy_API.Controllers.PoliciesController",
     "Method": "Delete",
-    "RelativePath": "api/Policies/{policyNo}",
+    "RelativePath": "api/v1.1/Policies/{policyNo}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -254,11 +260,6 @@
         "Name": "policyNo",
         "Type": "System.Int64",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -361,6 +362,369 @@
       },
       {
         "Name": "Mobile",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PolicyPublishController",
+    "Method": "PolicyPublish",
+    "RelativePath": "api/v1.1/PolicyPublish/Publish",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "GetVehicles",
+    "RelativePath": "api/v1.1/Vehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Vehicle, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.1",
+          "application/json; x-api-version=1.1",
+          "text/json; x-api-version=1.1"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "PostVehicle",
+    "RelativePath": "api/v1.1/Vehicles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicle",
+        "Type": "Policy_API.Models.Vehicle",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Policy_API.Models.Vehicle",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.1",
+          "application/json; x-api-version=1.1",
+          "text/json; x-api-version=1.1"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "GetVehicle",
+    "RelativePath": "api/v1.1/Vehicles/{registrationNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrationNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Policy_API.Models.Vehicle",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.1",
+          "application/json; x-api-version=1.1",
+          "text/json; x-api-version=1.1"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "DeleteVehicle",
+    "RelativePath": "api/v1.1/Vehicles/{registrationNo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrationNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "GetAllAddresses",
+    "RelativePath": "api/v1/Addresses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Address, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.0",
+          "application/json; x-api-version=1.0",
+          "text/json; x-api-version=1.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "GetAddress",
+    "RelativePath": "api/v1/Addresses",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Policy_API.DTO.AddressReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Policy_API.Models.Address",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.0",
+          "application/json; x-api-version=1.0",
+          "text/json; x-api-version=1.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "Post",
+    "RelativePath": "api/v1/Addresses/{aadharCardNo}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "address",
+        "Type": "Policy_API.Models.Address",
+        "IsRequired": true
+      },
+      {
+        "Name": "aadharCardNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Addresses/{aadharCardNo}/{doorNo}/{streetNo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aadharCardNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "doorNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "streetNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "Put",
+    "RelativePath": "api/v1/Addresses/{aadharCardNo}/{oldDoorNo}/{oldStreetNo}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "address",
+        "Type": "Policy_API.Models.Address",
+        "IsRequired": true
+      },
+      {
+        "Name": "aadharCardNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "oldDoorNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "oldStreetNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Policy_API.Auth.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Authentication/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Policy_API.Auth.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/v1/Authentication/register-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Policy_API.Auth.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PoliciesController",
+    "Method": "GetAllPolicies",
+    "RelativePath": "api/v1/Policies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Policy, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.0",
+          "application/json; x-api-version=1.0",
+          "text/json; x-api-version=1.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PoliciesController",
+    "Method": "Post",
+    "RelativePath": "api/v1/Policies/{aadharCardNo}/{registrationNo}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policy",
+        "Type": "Policy_API.Models.Policy",
+        "IsRequired": true
+      },
+      {
+        "Name": "aadharCardNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "registrationNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PoliciesController",
+    "Method": "GetPolicy",
+    "RelativePath": "api/v1/Policies/{adharCardNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyNo",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "adharCardNo",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Policy_API.Models.Policy",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.0",
+          "application/json; x-api-version=1.0",
+          "text/json; x-api-version=1.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PoliciesController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Policies/{policyNo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyNo",
         "Type": "System.Int64",
         "IsRequired": true
       }
@@ -472,6 +836,369 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Policy_API.Controllers.PolicyPublishController",
+    "Method": "PolicyPublish",
+    "RelativePath": "api/v1/PolicyPublish/Publish",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "GetVehicles",
+    "RelativePath": "api/v1/Vehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Vehicle, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.0",
+          "application/json; x-api-version=1.0",
+          "text/json; x-api-version=1.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "PostVehicle",
+    "RelativePath": "api/v1/Vehicles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicle",
+        "Type": "Policy_API.Models.Vehicle",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Policy_API.Models.Vehicle",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.0",
+          "application/json; x-api-version=1.0",
+          "text/json; x-api-version=1.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "GetVehicle",
+    "RelativePath": "api/v1/Vehicles/{registrationNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrationNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Policy_API.Models.Vehicle",
+        "MediaTypes": [
+          "text/plain; x-api-version=1.0",
+          "application/json; x-api-version=1.0",
+          "text/json; x-api-version=1.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "DeleteVehicle",
+    "RelativePath": "api/v1/Vehicles/{registrationNo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrationNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "GetAllAddresses",
+    "RelativePath": "api/v2/Addresses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Address, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; x-api-version=2.0",
+          "application/json; x-api-version=2.0",
+          "text/json; x-api-version=2.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "GetAddress",
+    "RelativePath": "api/v2/Addresses",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Policy_API.DTO.AddressReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Policy_API.Models.Address",
+        "MediaTypes": [
+          "text/plain; x-api-version=2.0",
+          "application/json; x-api-version=2.0",
+          "text/json; x-api-version=2.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "Post",
+    "RelativePath": "api/v2/Addresses/{aadharCardNo}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "address",
+        "Type": "Policy_API.Models.Address",
+        "IsRequired": true
+      },
+      {
+        "Name": "aadharCardNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "Delete",
+    "RelativePath": "api/v2/Addresses/{aadharCardNo}/{doorNo}/{streetNo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aadharCardNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "doorNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "streetNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AddressesController",
+    "Method": "Put",
+    "RelativePath": "api/v2/Addresses/{aadharCardNo}/{oldDoorNo}/{oldStreetNo}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "address",
+        "Type": "Policy_API.Models.Address",
+        "IsRequired": true
+      },
+      {
+        "Name": "aadharCardNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "oldDoorNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "oldStreetNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/v2/Authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Policy_API.Auth.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/v2/Authentication/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Policy_API.Auth.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.AuthenticationController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/v2/Authentication/register-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Policy_API.Auth.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PoliciesController",
+    "Method": "GetAllPolicies",
+    "RelativePath": "api/v2/Policies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Policy, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; x-api-version=2.0",
+          "application/json; x-api-version=2.0",
+          "text/json; x-api-version=2.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PoliciesController",
+    "Method": "Post",
+    "RelativePath": "api/v2/Policies/{aadharCardNo}/{registrationNo}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policy",
+        "Type": "Policy_API.Models.Policy",
+        "IsRequired": true
+      },
+      {
+        "Name": "aadharCardNo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "registrationNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PoliciesController",
+    "Method": "GetPolicy",
+    "RelativePath": "api/v2/Policies/{adharCardNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyNo",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "adharCardNo",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Policy_API.Models.Policy",
+        "MediaTypes": [
+          "text/plain; x-api-version=2.0",
+          "application/json; x-api-version=2.0",
+          "text/json; x-api-version=2.0"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.PoliciesController",
+    "Method": "Delete",
+    "RelativePath": "api/v2/Policies/{policyNo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyNo",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Policy_API.Controllers.PolicyHoldersController",
     "Method": "Get",
     "RelativePath": "api/v2/PolicyHolders",
@@ -576,26 +1303,30 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Policy_API.Controllers.VehiclesController",
-    "Method": "GetVehicles",
-    "RelativePath": "api/Vehicles",
+    "ContainingType": "Policy_API.Controllers.PolicyPublishController",
+    "Method": "PolicyPublish",
+    "RelativePath": "api/v2/PolicyPublish/Publish",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Policy_API.Controllers.VehiclesController",
+    "Method": "GetVehicles",
+    "RelativePath": "api/v2/Vehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[Policy_API.Models.Vehicle, Policy_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
-          "text/plain; x-api-version=1.0",
-          "application/json; x-api-version=1.0",
-          "text/json; x-api-version=1.0"
+          "text/plain; x-api-version=2.0",
+          "application/json; x-api-version=2.0",
+          "text/json; x-api-version=2.0"
         ],
         "StatusCode": 200
       }
@@ -604,7 +1335,7 @@
   {
     "ContainingType": "Policy_API.Controllers.VehiclesController",
     "Method": "PostVehicle",
-    "RelativePath": "api/Vehicles",
+    "RelativePath": "api/v2/Vehicles",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -613,20 +1344,15 @@
         "Name": "vehicle",
         "Type": "Policy_API.Models.Vehicle",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
         "Type": "Policy_API.Models.Vehicle",
         "MediaTypes": [
-          "text/plain; x-api-version=1.0",
-          "application/json; x-api-version=1.0",
-          "text/json; x-api-version=1.0"
+          "text/plain; x-api-version=2.0",
+          "application/json; x-api-version=2.0",
+          "text/json; x-api-version=2.0"
         ],
         "StatusCode": 200
       }
@@ -635,7 +1361,7 @@
   {
     "ContainingType": "Policy_API.Controllers.VehiclesController",
     "Method": "GetVehicle",
-    "RelativePath": "api/Vehicles/{registrationNo}",
+    "RelativePath": "api/v2/Vehicles/{registrationNo}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -644,20 +1370,15 @@
         "Name": "registrationNo",
         "Type": "System.String",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
         "Type": "Policy_API.Models.Vehicle",
         "MediaTypes": [
-          "text/plain; x-api-version=1.0",
-          "application/json; x-api-version=1.0",
-          "text/json; x-api-version=1.0"
+          "text/plain; x-api-version=2.0",
+          "application/json; x-api-version=2.0",
+          "text/json; x-api-version=2.0"
         ],
         "StatusCode": 200
       }
@@ -666,7 +1387,7 @@
   {
     "ContainingType": "Policy_API.Controllers.VehiclesController",
     "Method": "DeleteVehicle",
-    "RelativePath": "api/Vehicles/{registrationNo}",
+    "RelativePath": "api/v2/Vehicles/{registrationNo}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -675,11 +1396,6 @@
         "Name": "registrationNo",
         "Type": "System.String",
         "IsRequired": true
-      },
-      {
-        "Name": "x-api-version",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

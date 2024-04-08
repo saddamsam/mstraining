@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Policy_API.DTO;
 using Policy_API.Models;
@@ -6,7 +7,11 @@ using Policy_API.Repository;
 
 namespace Policy_API.Controllers
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [ApiVersion("1.1")]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiversion}/[controller]")]
+    [EnableCors]
     [ApiController]
     public class AddressesController : ControllerBase
     {
